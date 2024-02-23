@@ -19,6 +19,8 @@ async def on_message(message):
         await message.channel.send("ПРИВЕТ!")
     elif message.content.startswith('$kakdela'):
         await message.channel.send("Норм")
+    elif message.content.startswith('$arduinotop'):
+        await message.channel.send("да")
     elif message.content.startswith('$bye'):
         await message.channel.send("\\U0001f642")
     else:
